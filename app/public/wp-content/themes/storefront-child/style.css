@@ -1,0 +1,99 @@
+/*
+Theme Name: Storefront Child
+Theme URI: https://woocommerce.com/storefront/
+Template: storefront
+Author: Automattic
+Author URI: https://woocommerce.com/
+Description: Storefront is the perfect theme for your next WooCommerce project. Designed and developed by WooCommerce Core developers, it features a bespoke integration with WooCommerce itself plus many of the most popular customer facing WooCommerce extensions. There are several layout &amp; color options to personalise your shop, multiple widget regions, a responsive design and much more. Developers will love its lean and extensible codebase making it a joy to customize and extend. Looking for a WooCommerce theme? Look no further!
+Tags: e-commerce,two-columns,left-sidebar,right-sidebar,custom-background,custom-colors,custom-header,custom-menu,featured-images,full-width-template,threaded-comments,accessibility-ready,rtl-language-support,footer-widgets,sticky-post,theme-options,editor-style
+Version: 4.1.3.1665236948
+Updated: 2022-10-08 13:49:08
+
+*/
+
+.hero-container{
+  width: 100%;
+  height: 80vh;
+  position:relative; 
+  padding: 0 !important;
+  margin: 0  !important;
+  background-color: red;
+}
+
+.image-container{
+  /* object-fit: cover; */
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.hero-image{
+  min-height: 100%;
+  width: 100%;
+  object-fit: cover;
+  filter: brightness(0.5);
+}
+
+.hero-text-container{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hero-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.hero-content h1{
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.3;
+  color: #e5a0bf;
+  margin-bottom: 20px;
+}
+
+.hero-content p{
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #fff;
+  margin-bottom: 20px;
+
+}
+
+.storefront-hero__button-edit, .entry-title{
+  display: none;
+}
+
+.storefront-product-section{
+  position: relative;
+}
+
+@media screen and (max-width: 768px){
+  .hero-content h1{
+    font-size: 3rem;
+  }
+  .hero-content p{
+    font-size: 1.5rem;
+  }
+}
+  
+.free-shipping-notice{
+  width: 100%;
+  height: 50px;
+  background-color: #532237;
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+.free-shipping-notice p{
+  margin-top: 10px;
+
+}
