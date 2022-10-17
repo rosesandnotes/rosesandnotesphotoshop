@@ -97,3 +97,11 @@ Updated: 2022-10-08 13:49:08
   margin-top: 10px;
 
 }
+
+.wp-block-cover__inner-container{
+  font-family: 'Playfair Display', serif;
+}
+
+.col-1, .col-2{
+  width: 416px;
+}

@@ -1496,3 +1496,25 @@
 [08-Oct-2022 20:01:25 UTC] PHP   7. CX_Simply_Show_Hooks->init() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:39
 [08-Oct-2022 20:01:25 UTC] PHP   8. CX_Simply_Show_Hooks->set_active_status() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:67
 [08-Oct-2022 20:01:25 UTC] PHP   9. setcookie() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:84
+[17-Oct-2022 06:56:06 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[17-Oct-2022 06:56:06 UTC] PHP Stack trace:
+[17-Oct-2022 06:56:06 UTC] PHP   1. {main}() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-cron.php:0
+[17-Oct-2022 06:56:06 UTC] PHP   2. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-cron.php:44
+[17-Oct-2022 06:56:06 UTC] PHP   3. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-load.php:50
+[17-Oct-2022 06:56:06 UTC] PHP   4. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-config.php:91
+[17-Oct-2022 06:56:06 UTC] PHP   5. include_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-settings.php:428
+[17-Oct-2022 06:56:06 UTC] PHP   6. CX_Simply_Show_Hooks::get_instance() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:573
+[17-Oct-2022 06:56:06 UTC] PHP   7. CX_Simply_Show_Hooks->init() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:39
+[17-Oct-2022 06:56:06 UTC] PHP   8. CX_Simply_Show_Hooks->set_active_status() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:67
+[17-Oct-2022 06:56:06 UTC] PHP   9. setcookie() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:84
+[17-Oct-2022 06:56:17 UTC] PHP Warning:  Cannot modify header information - headers already sent in /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php on line 84
+[17-Oct-2022 06:56:17 UTC] PHP Stack trace:
+[17-Oct-2022 06:56:17 UTC] PHP   1. {main}() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-cron.php:0
+[17-Oct-2022 06:56:17 UTC] PHP   2. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-cron.php:44
+[17-Oct-2022 06:56:17 UTC] PHP   3. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-load.php:50
+[17-Oct-2022 06:56:17 UTC] PHP   4. require_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-config.php:91
+[17-Oct-2022 06:56:17 UTC] PHP   5. include_once() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-settings.php:428
+[17-Oct-2022 06:56:17 UTC] PHP   6. CX_Simply_Show_Hooks::get_instance() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:573
+[17-Oct-2022 06:56:17 UTC] PHP   7. CX_Simply_Show_Hooks->init() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:39
+[17-Oct-2022 06:56:17 UTC] PHP   8. CX_Simply_Show_Hooks->set_active_status() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:67
+[17-Oct-2022 06:56:17 UTC] PHP   9. setcookie() /Users/maryroseavenido/Local Sites/landscape-photographs/app/public/wp-content/plugins/simply-show-hooks/index.php:84
