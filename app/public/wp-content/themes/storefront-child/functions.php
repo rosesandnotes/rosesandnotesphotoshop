@@ -21,29 +21,13 @@ function load_bootstrap() {
 }
 add_action("wp_enqueue_scripts", "load_bootstrap");
 
-function hero_section(){ ?>
-    <div class="hero-container container-fluid">
-            <div class="image-container">
-                <img class="hero-image" src="<?php the_field("hero_image") ?>" alt="">
-            </div>
-            <div class="hero-content  d-flex align-items-center justify-content-center flex-column col-12 col-md-6">
-            
-                <div class="hero-text-container  ">
-                        <h1> <?php the_field("hero_headline") ?> </h1>
-                        <p> <?php  the_field("hero_subtitle") ?> </p>
-                </div>
-            </div>
-    </div>
+function free_shipping_notice(){ ?>
+    <?php if(get_field("promo_text")): ?>
+        <div class="free-shipping-notice">
+            <p> <?php the_field("promo_text") ?> </p>
+        </div>
+    <?php endif; ?>
 
     <?php
 }
-add_action("homepage", "hero_section",8);
-
-function free_shipping_notice(){ ?>
-    <div class="free-shipping-notice">
-        <p>Free shipping on Denmark orders over 300 DKK</p>
-    </div>
- <?php
-}
-add_action("storefront_before_content", "free_shipping_notice",5);
-
+add_action("wp_before_admin_bar_render", "free_shipping_notice",5);
